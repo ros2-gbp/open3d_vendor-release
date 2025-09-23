@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>open3d_vendor</name>
+  <version>0.19.0</version>
+  <description>Open3D is an open-source library that supports rapid development of software that deals with 3D data.</description>
+  <maintainer email="Christian.Rauch@unileoben.ac.at">Christian Rauch</maintainer>
+  <license>MIT</license>
+  <url>https://www.open3d.org</url>
+
+  <buildtool_depend>cmake</buildtool_depend>
+
+  <depend>libx11</depend>
+  <depend>libc++-dev</depend>
+  <depend>opengl</depend>
+
+  <export>
+    <build_type>cmake</build_type>
+  </export>
+</package>
