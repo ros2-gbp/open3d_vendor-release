@@ -26,4 +26,5 @@ tracks:
     ros_distro: rolling
     vcs_type: git
     vcs_uri: https://github.com/christian-rauch/open3d_colcon.git
-    version: :{auto}
+    version: 0.19.0
+    version_saved: :{auto}
